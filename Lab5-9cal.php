@@ -10,29 +10,38 @@ background-attachment:fixed;
 background-repeat: no-repeat; }
 </style>
 
-
 <body>
 <?php
-$name1 = $_GET['name1'];
-$surname = $_GET['surname'];
+$firstname = $_GET['firstname'];
+$lastname = $_GET['lastname'];
 $nickname = $_GET['nickname'];
-$birthday = $_GET['birthday'];
+$bday = $_GET['bday'];
 $age = $_GET['age'];
 $gender = $_GET['gender'];
-$maritalstatus = $_GET['maritalstatus'];
+$relationshipstatus = $_GET['relationshipstatus'];
 $hobby = $_GET['hobby'];
 $email = $_GET['email'];
-echo"<p>";
-echo"<b> Data input </b><br/>";
-echo"Name : <i> $name1 </i><br/>";
-echo"Surname : <i> $surname </i><br/>";
+
+echo"<p><br/><br/>";
+
+echo"<b> DATA INPUT </b><br/>";
+echo"<b>************************* </b><br/>";
+echo"FirstName : <i> $firstname </i><br/>";
+echo"Lastname : <i> $lastname </i><br/>";
 echo"NickName : <i> $nickname </i><br/>";
-echo"Brithday :<i> $birthday </i></br>";
-echo"Age : <i> $age </i><br/>";
+echo "Date : <i> $bday </i> <br/>";
+
+    if($age <= 100 && $age >= 1)
+      echo "Age : <i> $age </i><br/>";
+    else
+      echo "Unsuccessful <br/>";
 echo"Gender : <i> $gender </i><br/>";
-echo"Marital Status : <i> $maritalstatus </i><br/>";
+echo"Relationship Status : <i> $relationshipstatus </i><br/>";
 echo"Hobby : <i> $hobby </i><br/>";
-echo"Mobile : <i> $mobile </i><br/>";
+if(strlen($mobile) == 10)
+      echo "Mobile : <i> $mobile </i><br/>";
+    else
+      echo "Phone : Unsuccessful <br/>";
 echo"E-mail : <i> $email </i><br/>";
 ?>
 </body>
