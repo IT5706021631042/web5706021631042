@@ -26,7 +26,7 @@ echo"<p><br/><br/>";
 
 echo"<b> DATA INPUT </b><br/>";
 echo"<b>************************* </b><br/>";
-echo"FirstName : <i> $firstname </i><br/>";
+echo"Firstname : <i> $firstname </i><br/>";
 echo"Lastname : <i> $lastname </i><br/>";
 echo"NickName : <i> $nickname </i><br/>";
 echo "Date : <i> $bday </i> <br/>";
