@@ -5,14 +5,14 @@
 
 <style type="text/css">
 body {
-background-image: url(00115209);
+background-image: url(blurry-lights-background);
 background-attachment:fixed;
 background-repeat: no-repeat; }
 }
 </style>
 
 <body>
-<table  align="center" width="600" bgcolor="#EEDC82">
+<table  align="center" width="600" bgcolor="#FFFFFF">
   <br><br><br>
 
   <tr>
@@ -20,12 +20,10 @@ background-repeat: no-repeat; }
   <h2><br>Random 1-52</h2>
   </td>
 
-
-
-
-
-
 </table>
 </form>
 </body>
 </html>
+
+
+
