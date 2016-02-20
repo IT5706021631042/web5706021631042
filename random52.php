@@ -12,19 +12,18 @@ background-repeat: no-repeat; }
 </style>
 
 <body>
+  
 <table  align="center" width="600" bgcolor="#FFFFFF">
-  <br><br><br>
+  <br><br><br><br><br>
 
   <tr>
-  <td width="50" height="10" colspan="2" align="center">
-  <h2><br>Random 1-52</h2>
+  <td width="50" height="10" colspan="6" align="center">
+  <h2><br>RANDOM 1-52</h2>
   </td>
 
-  <br><br><br>
 
   <tr>
-  <td width="100" height="30" >1.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
+  <td width="70" height="30" >1.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -36,11 +35,8 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
   <tr>
   <td width="100" height="30" >3.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -52,11 +48,9 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
   <td width="100" height="30" >5.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -68,11 +62,9 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
   <td width="100" height="30" >7.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -84,11 +76,9 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
   <td width="100" height="30" >9.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -100,11 +90,9 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
   <td width="100" height="30" >11.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -116,7 +104,6 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
   <td width="100" height="30" >13.</td>
@@ -124,13 +111,32 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
+  <?php
 
+  function gen_rand( $from , $to , $amount )
+  {
+      $keepvalue = array();
+      for($i=0;$i<$amount;$i++) {
+
+          $value = rand($from , $to);
+          if ( in_array( $value , $keepvalue) ) {
+              $i = count($keepvalue)-1;
+              } else {
+                  $keepvalue[] = $value;
+              }
+          }
+      return $keepvalue;
+  }
+
+  $x = gen_rand( 1 , 36 ,4 );
+
+
+?>
 </table>
 </form>
+
 </body>
 </html>
-
 
 
