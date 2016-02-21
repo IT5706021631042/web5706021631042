@@ -12,8 +12,8 @@ background-repeat: no-repeat; }
 </style>
 
 <body>
-  
-<table  align="center" width="600" bgcolor="#FFFFFF">
+
+<table  align="center" width="300" bgcolor="#FFFFFF">
   <br><br><br><br><br>
 
   <tr>
@@ -30,83 +30,83 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >2.</td>
+  <td width="70" height="30" >2.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <tr>
-  <td width="100" height="30" >3.</td>
+  <td width="70" height="30" >3.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >4.</td>
+  <td width="70" height="30" >4.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >5.</td>
+  <td width="70" height="30" >5.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >6.</td>
+  <td width="70" height="30" >6.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >7.</td>
+  <td width="70" height="30" >7.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >8.</td>
+  <td width="70" height="30" >8.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >9.</td>
+  <td width="70" height="30" >9.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >10.</td>
+  <td width="70" height="30" >10.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >11.</td>
+  <td width="70" height="30" >11.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >12.</td>
+  <td width="70" height="30" >12.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
   <tr>
-  <td width="100" height="30" >13.</td>
+  <td width="70" height="30" >13.</td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
@@ -138,5 +138,6 @@ background-repeat: no-repeat; }
 
 </body>
 </html>
+
 
 
