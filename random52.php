@@ -112,32 +112,14 @@ background-repeat: no-repeat; }
   <td><input type="text" name="number" size="25" value=""/></td>
   <td><input type="text" name="number" size="25" value=""/></td>
   </tr>
-  <?php
-
-  function gen_rand( $from , $to , $amount )
-  {
-      $keepvalue = array();
-      for($i=0;$i<$amount;$i++) {
-
-          $value = rand($from , $to);
-          if ( in_array( $value , $keepvalue) ) {
-              $i = count($keepvalue)-1;
-              } else {
-                  $keepvalue[] = $value;
-              }
-          }
-      return $keepvalue;
-  }
-
-  $x = gen_rand( 1 , 36 ,4 );
-
-
-?>
+  
 </table>
 </form>
 
 </body>
 </html>
-
+  
+  
+  
 
 
