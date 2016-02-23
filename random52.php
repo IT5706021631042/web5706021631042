@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <mete charset="utf-8">
-<title>Random</title>
-</head>
+<title>Random</title></head>
+
 <style type="text/css">
 body {
 background-image: url(blurry-lights-background);
@@ -11,6 +11,7 @@ background-attachment:fixed;
 background-repeat: no-repeat; }
 }
 </style>
+
 <body>
   <table  align="center" width="400" bgcolor="#F5F5F5">
   <br><br><br><br><br><br><br>
@@ -62,8 +63,7 @@ background-repeat: no-repeat; }
   }
   echo "</table>";
   ?>
-  
+
 </table>
 </body>
 </html>
-  
