@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
 <mete charset="utf-8">
 <title>Random</title></head>
@@ -12,114 +13,58 @@ background-repeat: no-repeat; }
 </style>
 
 <body>
-
-<table  align="center" width="300" bgcolor="#FFFFFF">
-  <br><br><br><br><br>
-
+  <table  align="center" width="400" bgcolor="#F5F5F5">
+  <br><br><br><br><br><br><br>
   <tr>
-  <td width="50" height="10" colspan="6" align="center">
-  <h2><br>RANDOM 1-52</h2>
+  <td colspan="2" align="center">
+  <h2>RANDOM 1-52</h2>
   </td>
 
+  <?php
+  $row = 13;
+  $col = 4;
+  $cards = array();
+  for ($i = 0; $i < 1; $i++) {
+         	$card = mt_rand(1, 52);
+         	if(!in_array($card, $cards)){
+         		$cards[$i] = $card;
+  	}else{
+  		$i--;
+  	}
+  	$cards = array_unique($cards);
+     	}
 
-  <tr>
-  <td width="70" height="30" >1.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >2.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <tr>
-  <td width="70" height="30" >3.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >4.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >5.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >6.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >7.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >8.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >9.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >10.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >11.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >12.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
-  <tr>
-  <td width="70" height="30" >13.</td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  <td><input type="text" name="number" size="25" value=""/></td>
-  </tr>
+  $count_arr=count($cards);
+
+     	foreach ($cards as $cards) {
+
+  	}
+  echo "<table align='center' border='4' width='400'>";
+
+  for ($r=1; $r <= $row; $r++){
+  echo "<tr>";
+  for ($c=1; $c <= $col; $c++){
+  if ($r==$c){
+  echo "<td align='center'>";
+  echo $cards."</td>";
+  }
+  else
+  {
+  echo "<td align='center'> $cards</td>";
+  }
+  if($cards>=52)
+  {$cards = ($cards=1);
+  }
+  elseif ($cards==$cards)
+  {$cards = ($cards+1);
+  }
+  }
+  echo "</tr>";
+  }
+  echo "</table>";
+  ?>
   
 </table>
-</form>
-
 </body>
 </html>
   
-  
-  
-
-
