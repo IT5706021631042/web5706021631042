@@ -14,7 +14,7 @@
           </td>
         </tr>
         <tr>
-          <td> Student Name : : </td>
+          <td> Student Name : </td>
           <td><input type="text" name="name" size="15" value=""/> </td>
         </tr>
             <tr>
@@ -51,17 +51,13 @@
               </table>
                   </form>
                   <center>
-
                   <?php
-
                   $pt = $_POST ['pt'];
                   $hw = $_POST ['hw'];
                   $ts = $_POST ['ts'];
                   $as = $_POST ['as'];
                   $mt = $_POST ['mt'];
                   $fn = $_POST ['fn'];
-
-
 
                   echo "<p>";
                   echo "<b> Users input data </b></br>";
