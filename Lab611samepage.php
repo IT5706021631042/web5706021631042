@@ -50,6 +50,7 @@
 
               </table>
                   </form>
+                  <center>
 
                   <?php
 
@@ -59,6 +60,8 @@
                   $as = $_POST ['as'];
                   $mt = $_POST ['mt'];
                   $fn = $_POST ['fn'];
+
+
 
                   echo "<p>";
                   echo "<b> Users input data </b></br>";
@@ -90,7 +93,7 @@
                   echo "Result Grade : <b>F </b><br/>";
                   echo "<br>";
 
-
                   ?>
+                </center>
                 </body>
                 </html>
